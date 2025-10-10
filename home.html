@@ -15,45 +15,111 @@
     <header>
       <h1>Welcome To The Little Taco Shop</h1>
 
-      <nav></nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About LTS</a>
+          </li>
+          <li>
+            <a href="#menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="/hours.html">Store Hours</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="/tacos_and_drink_400x267.png"
+          alt="LTS image"
+          width="400"
+          height="267"
+        />
+
+        <figcaption>Tacos and a Drink</figcaption>
+      </figure>
     </header>
     <hr />
     <main>
-      <h2>About LTS</h2>
-      <p>
-        LTS was founded in 2022. OUr shop was buillt from a love of tacos
-        🌮🌮🌮. We hope our shop adds a unique and interesting plae to our
-        little town.
-      </p>
+      <section id="about">
+        <h2>About LTS</h2>
+        <p>
+          LTS was founded in 2022. OUr shop was buillt from a love of tacos
+          🌮🌮🌮. We hope our shop adds a unique and interesting plae to our
+          little town.
+        </p>
 
-      <aside>
-        <details>
-          <summary>Taco Trivia</summary>
-          <p>
-            Tacos first appeared in the United States around 1905, brought by
-            Mexican migrant workers who were hired for jobs in the mines and
-            railroads in the Southwestern U.S. Initially considered a low-class
-            street food, tacos were sold by women known as "Chili Queens".
-          </p>
-        </details>
-      </aside>
+        <aside>
+          <details>
+            <summary>Taco Trivia</summary>
+            <p>
+              Tacos first appeared in the United States around 1905, brought by
+              Mexican migrant workers who were hired for jobs in the mines and
+              railroads in the Southwestern U.S. Initially considered a
+              low-class street food, tacos were sold by women known as "Chili
+              Queens".
+            </p>
+          </details>
+        </aside>
+      </section>
 
-      <h2>Our Menu</h2>
-      <table>
-        <caption>
+      <hr />
+
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <table>
+          <caption>
             Our Tacos
-        </caption>
-        <thead>
-            <th>Tacos</th>
-            <th>Qty</th>
-            <th>Price</th>
-        </thead>
-        <tbody>
+          </caption>
+          <thead>
             <tr>
-                Crunchy
+              <th>Tacos</th>
+              <th>Qty</th>
+              <th>Price</th>
             </tr>
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="3">crunchy</th>
+              <td>1</td>
+              <td>$1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$3.25</td>
+            </tr>
+            <tr>
+              <th rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$4.50</td>
+            </tr>
+            <tr>
+              <td colspan="3">Chips & Salsa $2</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
+
+    <footer>
+      <p><a href="#">Back to Top</a></p>
+      <hr />
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
   </body>
 </html>
