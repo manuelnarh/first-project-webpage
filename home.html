@@ -47,20 +47,26 @@
       <section id="about">
         <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
         <p>
-          LTS was founded in <time datetime="2022">2022</time>. Our shop was built from a love of tacos
-          🌮🌮🌮. We hope our shop adds a unique and interesting plae to our
-          little town.
+          LTS was founded in <time datetime="2022">2022</time>. Our shop was
+          built from a love of tacos 🌮🌮🌮. We hope our shop adds a unique and
+          interesting plae to our little town.
         </p>
 
         <aside>
+          <h3>Taco Trivia</h3>
           <details>
-            <summary>Taco Trivia</summary>
+            <summary>When did tacos first appear in the Unites States?</summary>
             <p>
-              Tacos first appeared in the United States around 1905, brought by
-              Mexican migrant workers who were hired for jobs in the mines and
-              railroads in the Southwestern U.S. Initially considered a
-              low-class street food, tacos were sold by women known as "Chili
-              Queens".
+              Tacos first appeared in the United States around
+              <time datetime="1905">1905</time>, brought by Mexican migrant
+              workers who were hired for jobs in the mines and railroads in the
+              Southwestern U.S. Initially considered a low-class street food,
+              tacos were sold by women known as "Chili Queens". (Source:
+              <cite
+                ><a
+                  href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank"
+                >Smithsonian Magazine</a></cite
+              >)
             </p>
           </details>
         </aside>
@@ -77,13 +83,13 @@
           <thead>
             <tr>
               <th>Tacos</th>
-              <th>Qty</th>
-              <th>Price</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th rowspan="3">crunchy</th>
+              <th rowspan="3" scope="row">Crunchy</th>
               <td>1</td>
               <td>$1.50</td>
             </tr>
@@ -96,7 +102,7 @@
               <td>$3.25</td>
             </tr>
             <tr>
-              <th rowspan="3">Soft</th>
+              <th rowspan="3" scope="row">Soft</th>
               <td>1</td>
               <td>$2.00</td>
             </tr>
@@ -109,7 +115,7 @@
               <td>$4.50</td>
             </tr>
             <tr>
-              <td colspan="3">Chips & Salsa $2</td>
+              <t colspan="3">Chips & Salsa $2</td>
             </tr>
           </tbody>
         </table>
