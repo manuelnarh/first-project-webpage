@@ -184,6 +184,24 @@ a:active{
     }    
 }
 
+/* || FOOTER */
+.footer{
+    position:sticky;
+    bottom:0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
+
+/* || MAIN */
+.main{
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
+
+
+
 
 /* html {
     font-size: 22px;
