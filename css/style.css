@@ -178,7 +178,7 @@ a:active{
         scaleY(1.2);
     }    
     100%{
-        top: 100px;
+        top: 20px;
         transform: skew(-10deg, -5deg)
         scaleY(1);
     }    
